@@ -1,29 +1,29 @@
-/* Style global */
-body {
-  font-family: Arial, sans-serif;
+/* Global */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
   background-color: #f4f4f4;
+  color: #333;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Bandeau de navigation fixe */
+/* Bandeau de navigation */
 header {
-  background-color: #0078d7;
-  padding: 10px 0;
   position: fixed;
-  top: 0;
   width: 100%;
+  top: 0;
+  background-color: #0078d7;
+  color: white;
+  padding: 10px 0;
   z-index: 100;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-container {
+header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -32,75 +32,83 @@ header {
   padding: 0 20px;
 }
 
-.nav-container a.logo {
-  color: white;
+header a.logo {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
+  color: white;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
   display: flex;
-  gap: 15px;
+  gap: 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  font-size: 16px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Ajustement du contenu sous le bandeau */
-body {
-  margin-top: 60px; /* Pour ne pas que le contenu soit caché sous le bandeau */
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
 }
 
-/* Section principale */
-main {
-  padding: 2rem 0;
+/* Section hero */
+.hero {
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 20px;
+  color: white;
+  text-align: center;
 }
 
-#about,
-#web {
-  padding: 2rem;
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+}
+
+/* Section à propos */
+#about {
+  padding: 2rem 20px;
   background-color: #fff;
-  margin: 2rem auto;
-  border-radius: 8px;
-  max-width: 1200px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-#about h1,
-#web h2 {
+#about h2 {
   color: #0078d7;
 }
 
-#about ul,
-#web ul {
+#about ul {
   list-style: none;
-  padding-left: 0;
+  margin-top: 20px;
 }
 
-#about li,
-#web li {
+#about li {
+  font-size: 1.1rem;
   margin-bottom: 10px;
-  font-size: 16px;
 }
 
 /* Pied de page */
 footer {
-  text-align: center;
-  padding: 1rem;
   background-color: #0078d7;
   color: white;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 footer a {
