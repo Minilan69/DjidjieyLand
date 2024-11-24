@@ -50,7 +50,7 @@ Pour proposer une amélioration ou signaler un problème :
 
 Venez découvrir la communauté DjidjeyLand !  
 👉 **[Rejoindre le Discord](https://discord.gg/ptsMHR9UEK)**  
-👉 **[Visiter le site](https://github.com/Minilan69/DjidjieyLand)**
+👉 **[Visiter le site](https://minilan69.github.io/DjidjieyLand/)**
 
 ---
 
