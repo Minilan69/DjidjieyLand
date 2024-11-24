@@ -70,3 +70,27 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+/* Général */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenu principal (header + main) */
+main {
+  flex: 1; /* Remplit l'espace restant entre header et footer */
+}
+
+/* Footer fixe */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem;
+  position: relative; /* Laisse flexbox gérer le positionnement */
+  width: 100%;
+}
