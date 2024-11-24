@@ -12,53 +12,64 @@ body {
   margin: 0 auto;
 }
 
-/* Bandeau de navigation */
+/* Bandeau de navigation fixe */
 header {
   background-color: #0078d7;
   padding: 10px 0;
-  text-align: center;
   position: fixed;
-  width: 100%;
   top: 0;
-  left: 0;
+  width: 100%;
   z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header .container {
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
-.home-link {
+.nav-container a.logo {
   color: white;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: bold;
   text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
 }
 
-/* Section de fonctionnalités */
-#features {
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-  margin-top: 30px;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.feature {
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 30%;
-  text-align: center;
+/* Ajustement du contenu sous le bandeau */
+body {
+  margin-top: 60px; /* Pour ne pas que le contenu soit caché sous le bandeau */
 }
 
-.feature h3 {
-  color: #0078d7;
+/* Section principale */
+main {
+  padding: 2rem 0;
 }
 
-/* Section à propos */
-#about {
+#about,
+#web {
   padding: 2rem;
   background-color: #fff;
   margin: 2rem auto;
@@ -67,8 +78,21 @@ header .container {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#about p {
-  line-height: 1.6;
+#about h1,
+#web h2 {
+  color: #0078d7;
+}
+
+#about ul,
+#web ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#about li,
+#web li {
+  margin-bottom: 10px;
+  font-size: 16px;
 }
 
 /* Pied de page */
@@ -77,4 +101,13 @@ footer {
   padding: 1rem;
   background-color: #0078d7;
   color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
