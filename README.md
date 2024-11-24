@@ -54,9 +54,9 @@ Venez découvrir la communauté DjidjeyLand !
 
 ---
 
-### Licence
+## Licence
 
-Ce projet est sous licence MIT. Vous êtes libre de l'utiliser, le modifier et le partager
+Ce projet est sous licence [MIT](./LICENSE). Vous êtes libre d'utiliser, modifier et distribuer ce projet, sous réserve des conditions mentionnées dans la licence
 
 ---
 
