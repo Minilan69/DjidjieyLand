@@ -64,6 +64,7 @@ nav a:hover {
 }
 
 /* Section hero */
+/* Section hero avec voile gris */
 .hero {
   background-image: url("../assets/bg.png");
   background-size: cover;
@@ -71,22 +72,45 @@ nav a:hover {
   padding: 150px 20px;
   color: white;
   text-align: center;
+  position: relative;
 }
 
-.hero-text h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+/* Ajouter le voile gris */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Gris avec transparence */
+  z-index: 1; /* Mettre le voile en dessous du texte */
 }
 
-.hero-text p {
-  font-size: 1.2rem;
+/* Ajuster le texte pour qu'il soit au-dessus du voile */
+.hero-text {
+  position: relative;
+  z-index: 2;
 }
 
-/* Section à propos */
+/* Section about avec fond blanc */
 #about {
+  background: white; /* Fond blanc */
   padding: 2rem 20px;
-  background-color: #fff;
+  color: black; /* Texte noir pour contraste */
   text-align: center;
+  position: relative;
+}
+
+/* Voile gris supprimé pour le fond blanc */
+#about::before {
+  content: none; /* Supprime le voile gris */
+}
+
+#about h2,
+#about p {
+  position: relative;
+  z-index: 2;
 }
 
 #about h2 {
@@ -118,4 +142,22 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+/* Applique ces styles au body et html */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajoute ce style au footer */
+footer {
+  margin-top: auto; /* Pousse le footer en bas */
+  background-color: #0078d7;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
 }
