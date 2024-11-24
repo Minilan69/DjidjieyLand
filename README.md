@@ -10,7 +10,7 @@ Rejoignez-nous pour profiter de :
 
 - **Discussions animées** 🌈
 - **Événements communautaires** 🎉
-- **Serveurs de jeux exclusifs**, notamment nos serveurs Minecraft🎮
+- **Serveurs de jeux exclusifs**, notamment nos serveurs Minecraft 🎮
 - **Un espace chill** pour se détendre et échanger 🛋️
 
 ## 🖥️ Site Web
@@ -49,8 +49,8 @@ Pour proposer une amélioration ou signaler un problème :
 ## 💌 Rejoignez-nous
 
 Venez découvrir la communauté DjidjeyLand !  
-👉 **[Rejoindre le Discord](https://discord.gg/votre-lien-invitation)**  
-👉 **[Visiter le site](https://votre-utilisateur.github.io/DjidjeyLand)**
+👉 **[Rejoindre le Discord](https://discord.gg/ptsMHR9UEK)**  
+👉 **[Visiter le site](https://github.com/Minilan69/DjidjieyLand)**
 
 ---
 
