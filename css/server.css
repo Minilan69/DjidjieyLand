@@ -7,9 +7,14 @@ body {
 }
 
 header {
+  position: fixed;
+  width: 100%;
+  top: 0;
   background-color: #0078d7;
   color: white;
-  padding: 1rem 0;
+  padding: 10px 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header .container {
@@ -18,14 +23,14 @@ header .container {
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 20px;
 }
 
-header .logo {
-  font-size: 1.5rem;
+header a.logo {
+  font-size: 24px;
   font-weight: bold;
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 header nav ul {
