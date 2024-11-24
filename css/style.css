@@ -1,93 +1,15 @@
+/* Style global de base */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
   background-color: #f4f4f4;
-  color: #333;
-}
-
-header {
-  background: #0078d7;
-  color: #fff;
-  padding: 2rem 0;
-  text-align: center;
-}
-
-header .btn {
-  background: #fff;
-  color: #0078d7;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-header .btn:hover {
-  background: #f4f4f4;
-  color: #0078d7;
 }
 
 .container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 0 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-main {
-  padding: 2rem 0;
-}
-
-#about,
-#features {
-  background: #fff;
-  margin: 2rem auto;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.features {
-  display: flex;
-  gap: 1rem;
-  justify-content: space-around;
-}
-
-.feature {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 5px;
-  text-align: center;
-  width: 30%;
-}
-
-footer {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-footer a {
-  color: #0078d7;
-  text-decoration: none;
-}
-
-footer a:hover {
-  text-decoration: underline;
-}
-
-#survival,
-#minigames,
-#modded {
-  background: #fff;
-  margin: 2rem auto;
-  padding: 1rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #0078d7;
-}
+/* Autres styles communs (si nécessaire) */

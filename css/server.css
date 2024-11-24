@@ -1,0 +1,70 @@
+/* Style global pour la page des serveurs */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Bandeau de navigation */
+header {
+  background-color: #0078d7;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.home-link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section de serveurs */
+#servers {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-top: 30px;
+}
+
+.server {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+}
+
+.server h3 {
+  color: #0078d7;
+}
+
+.server p {
+  line-height: 1.6;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0078d7;
+  color: white;
+}
